@@ -1,0 +1,78 @@
+Rules:
+- '&c(1) &2Put your rules in a list here.'
+- '&c(2) &6The bukkit color codes work here!'
+- '&c(3) &2Remember to follow YAML syntax rules.'
+Options:
+  Move:
+    Deny: false
+    Message: false
+  Talk:
+    Deny: false
+    Message: false
+  BlockInteract:
+    Deny: true
+    Message: true
+  EntityInteract:
+    Deny: true
+    Message: false
+  BlockPlace:
+    Deny: true
+    Message: true
+  BlockBreak:
+    Deny: true
+    Message: true
+  InventoryClick:
+    Deny: true
+    Message: true
+  ItemPickup:
+    Deny: true
+    Message: false
+  ItemDrop:
+    Deny: true
+    Message: true
+  ItemConsume:
+    Deny: true
+    Message: true
+  ItemHeld:
+    Deny: false
+    Message: false
+  ProjectileLaunch:
+    Deny: true
+    Message: true
+  Attack:
+    Deny: true
+    Message: true
+  Damage:
+    Deny: true
+    Message: false
+  BucketEmpty:
+    Deny: true
+    Message: true
+  BucketFill:
+    Deny: true
+    Message: true
+  ToggleSneak:
+    Deny: false
+    Message: false
+  ToggleSprint:
+    Deny: false
+    Message: false
+  ExpChange:
+    Deny: true
+    Message: false
+  PortalUsage:
+    Deny: true
+    Message: true
+Messages:
+  HasAgreed: '&6You have already agreed to the rules.'
+  HasNotAgreed: '&6Agree to the rules with &c/IAgree&6.'
+  HasNotRead: '&6You must read the rules first with &c/Rules&6!'
+  JustAgreed: '&6Thank you for agreeing to the rules!'
+  DenyMessage: '&4You can''t do this until you''ve agreed to the rules.'
+Tasks:
+  SaveTask:
+    Enabled: true
+    Interval: 600
+  MessageTask:
+    Enabled: true
+    Interval: 10

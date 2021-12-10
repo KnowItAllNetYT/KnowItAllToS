@@ -1,0 +1,23 @@
+name: KnowItAllToS
+main: tk.knowitallgn.ToS.ToS
+description: ToS plugin by KnowItAllNet
+version: Snapshot
+author: KnowItAllNet
+
+commands:
+    Rules:
+        description: Read the rules.
+    IAgree:
+        description: Agree to the rules.
+    ToS:
+        description: Admin commands.
+permissions:
+    ToS.command.rules:
+        description: Allowed to use the command /Rules.
+        default: true
+    ToS.command.iagree:
+        description: Allowed to use the command /IAgree.
+        default: true
+    ToS.command.tos:
+        description: Allowed to use the command /ToS.
+        default: op
